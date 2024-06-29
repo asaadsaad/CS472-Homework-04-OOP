@@ -38,7 +38,7 @@ export class Exercise2 {
         return true;
     }
 
-    update_student_grade(course_code: string, student_id: string): boolean {
+    update_student_grade(course_code: string, student_id: string, grade: number): boolean {
         // update the student grade
         // return true if the student's grade is updated successfully, false otherwise
         return true;
