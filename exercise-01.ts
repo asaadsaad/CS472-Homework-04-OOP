@@ -4,7 +4,7 @@ export type Item = { id: string, title: string; };
 
 let data: Readonly<Item[]> = Object.freeze([]);
 
-export function get_items(new_item: Item): readonly Item[] {
+export function get_items(): readonly Item[] {
     return data;
 }
 
