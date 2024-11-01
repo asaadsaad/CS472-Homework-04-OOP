@@ -10,7 +10,7 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "@types/node": "^20.14.9",
-    "tsx": "^4.15.7"
+    "@types/node": "^20.17.5",
+    "tsx": "^4.19.2"
   }
 }
