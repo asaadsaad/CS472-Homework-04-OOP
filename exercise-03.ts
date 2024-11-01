@@ -3,7 +3,7 @@
 type Student = { student_id: string, firstname: string; lastname: string; grade: number; };
 type Course = Record<string, { title: string, students: Student[]; }>; // example: { 'CS472': { title: 'Web Application Programming', students: [] }}
 
-export class Exercise2 {
+export class Exercise3 {
     #courses: Course[] = [];
 
     add_course(course_code: string, course_title: string): boolean {
